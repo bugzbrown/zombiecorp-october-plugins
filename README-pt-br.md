@@ -16,7 +16,7 @@ A idéia destes JS é que eles tenham o menor footprint e sejam o mais independe
 
 Na primeira versão, eu converti meu plugin de mascaras de input. Tipo o jQueryMask.
 
-Tento instalado o plugin, basta você adicionar um atributo no seu input assim:
+Tendo instalado o plugin, basta você adicionar um atributo no seu input assim:
 
 ```html
 <input zcmask="NOME_DA_FUNCAO_DE_MASCARA" type="text" />
