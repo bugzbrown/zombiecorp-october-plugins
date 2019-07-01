@@ -1,0 +1,18 @@
+plugin:
+    name: 'zombiecorp.ceps::lang.plugin.name'
+    description: 'zombiecorp.ceps::lang.plugin.description'
+    author: Zombiecorp
+    icon: oc-icon-th-list
+    homepage: ''
+navigation:
+    ceps-menu-item:
+        label: 'CEPS Locais'
+        url: zombiecorp/ceps/cepscontroller
+        icon: icon-life-ring
+        permissions:
+            - cepadmin
+        order: '608'
+permissions:
+    cepadmin:
+        tab: 'CEP ADMIN'
+        label: 'Administer CEPS'

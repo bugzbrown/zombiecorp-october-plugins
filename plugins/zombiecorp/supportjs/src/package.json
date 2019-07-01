@@ -1,0 +1,19 @@
+{
+  "name": "support-js-src-files",
+  "version": "1.0.0",
+  "description": "Compile the support files into a neat bundle",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "watch": "webpack --watch --mode development",
+    "build": "webpack --mode production --config webpack.config.prod.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  }
+}

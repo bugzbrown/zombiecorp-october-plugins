@@ -1,0 +1,32 @@
+<div class="zc-cepfield">
+    <input
+        id="<?= $id ?>" name="<?= $name ?>" zc-mask="cep" value="<?= e($value) ?>"
+        class="form-control" />
+    <button class="btn-sm form-control" id="zcConsultarCEP" data-cepid='<?= $id ?>'>Consultar CEP</button>
+</div>
+<div class="panel">
+    <div class="title">OI</div>
+    <input type="text" class="form-control" name="zcDisplay_tipo_log" placeholder="Tipo de Logradouro"/>
+    <input type="text" class="form-control" name="zcDisplay_logradouro" placeholder="Logradouro" value="<?=$displayLogradouro?>" />
+    <input type="text" class="form-control" name="zcDisplay_bairro" placeholder="Bairro" />
+    <input type="text" class="form-control" name="zcDisplay_cidade" placeholder="Cidade" />
+    <input type="text" class="form-control" name="zcDisplay_estado" placeholder="Estado" />
+</div>
+
+
+
+    <!-- Text
+<div class="form-group text-field span-full" style="border:1px solid red"
+     data-field-name="cep"
+     id="Form-field-Cep-cep-group"
+     ><label for="Form-field-Cep-cep">Text</label>
+    <input
+        type="text"
+        name="Cep[cep]"
+        id="Form-field-Cep-cep"
+        value=""
+        placeholder=""
+        class="form-control"
+        autocomplete="off"
+        maxlength="255"></div>
+-->

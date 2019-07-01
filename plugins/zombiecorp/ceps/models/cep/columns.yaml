@@ -1,0 +1,29 @@
+columns:
+    cep:
+        label: CEP
+        type: text
+    tipo_logradouro:
+        label: Tipo
+        type: text
+        searchable: false
+        sortable: false
+    logradouro:
+        label: Endereço
+        type: text
+        searchable: true
+        sortable: true
+    bairro:
+        label: Biarro
+        type: text
+        searchable: true
+        sortable: true
+    cidade:
+        label: Cidade
+        type: text
+        searchable: true
+        sortable: true
+    estado:
+        label: Estado
+        type: text
+        searchable: true
+        sortable: true

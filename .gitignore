@@ -1,0 +1,9 @@
+*
+!.gitignore
+!/plugins/zombiecorp/**
+/plugins/zombiecorp/testeplugin
+!LICENSE
+!README.md
+!README-en.md
+!README-pt-br.md
+node_modules

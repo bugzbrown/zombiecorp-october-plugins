@@ -1,0 +1,12 @@
+list: $/zombiecorp/ceps/models/cep/columns.yaml
+modelClass: Zombiecorp\Ceps\Models\Cep
+title: CepsController
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'zombiecorp/ceps/cepscontroller/update/:id'

@@ -1,0 +1,8 @@
+.zc-cepfield{
+    display:flex;
+}
+.zc-cepfield button.form-control{
+    flex-basis: 25%;
+    margin:0;
+    display: inline;
+}

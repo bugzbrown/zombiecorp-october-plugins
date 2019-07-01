@@ -1,0 +1,10 @@
+name: CepsController
+form: $/zombiecorp/ceps/models/cep/fields.yaml
+modelClass: Zombiecorp\Ceps\Models\Cep
+defaultRedirect: zombiecorp/ceps/cepscontroller
+create:
+    redirect: 'zombiecorp/ceps/cepscontroller/update/:id'
+    redirectClose: zombiecorp/ceps/cepscontroller
+update:
+    redirect: zombiecorp/ceps/cepscontroller
+    redirectClose: zombiecorp/ceps/cepscontroller
