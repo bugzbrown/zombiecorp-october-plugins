@@ -1,5 +1,5 @@
 # zombiecorp-october-plugins
 
-Plugins do OctoberCMS - (./README-pt-br.md)[Readme em português]
+Plugins do OctoberCMS - [Readme em português](./README-pt-br.md)
 
-OctoberCMS Plugins - [./README-en.md](English readme).
+OctoberCMS Plugins - [English readme](./README-en.md).
