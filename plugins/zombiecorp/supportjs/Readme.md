@@ -6,7 +6,7 @@ This plugin adds commonly used JS items to the project in a neat tight little bu
 
 ### Documentação
 
-Maiores informações podem ser encontradas aqui : [Documentação do Masks](../docs/masks.md)
+Maiores informações podem ser encontradas aqui : [Documentação do Masks](./src/docs/masks.md)
 ### Português
 
 Tendo instalado o plugin, basta você adicionar um atributo no seu input assim:
