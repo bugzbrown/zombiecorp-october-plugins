@@ -1,6 +1,6 @@
 <?php return [
     'plugin' => [
-        'name' => 'Ceps',
-        'description' => ''
+        'name' => 'Brazilian ZipCodes',
+        'description' => 'This plugin allows you to lookup addresses based on brazilian zip codes.'
     ]
 ];

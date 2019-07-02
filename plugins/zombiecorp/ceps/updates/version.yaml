@@ -3,3 +3,9 @@
 1.0.2:
     - 'Created table zombiecorp_cadastros_usuarios'
     - builder_table_create_zombiecorp_cadastros_ceps.php
+1.1.0:
+    - Incluso verificação das tabelas do RepublicaVirtual
+    - Se existirem as tabelas do RV ele usa elas para consultar
+    - o CEP primeiro, caso contrário, ele dispara um evento no
+    - Log para notificar o developer de que ele deveria instalar
+    - a base do RV.
